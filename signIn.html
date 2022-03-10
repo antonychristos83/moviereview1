@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signinstyle.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Style.css">
+    <title>SignIn</title>
+</head>
+<script src="scriptalert.js"></script>
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <span>&nbsp TALKIES&nbsp;</span><i class='bx bx-movie-play bx-tada'></i></span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <div class="dropdown">  
+                        <li><a href="#">Movies</a></li> 
+                        <div class="dropdown-content">  
+                        <a href="horror.html"> Horror </a>  
+                        <a href="action.html"> Action </a>  
+                        <a href="comedy.html"> Comedy </a>
+                        <a href="romance.html"> Romance </a>
+                        </div>  
+                        </div>
+                    <li><a href="series.html">Series</a></li>
+                    <li>
+                    <a href="signIn.html" class="btn btn-hover">
+                        <span>Sign In</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="signin">  
+        <div class="signin_container">
+            <form action="GET">
+            <center><input  style="width: 240px; border-radius: 34px ; padding: 10px; margin-bottom: 10px;" type="text" id="username" placeholder="username"><br>
+            <input style="width: 240px;border-radius: 24px ;padding: 10px; margin-bottom: 10px;" type="password" id="password" placeholder="password"><br>
+            <input style="width: 140px;border-radius: 24px ;margin-right:5px; padding: 10px; margin-bottom: 10px;" type="button" onclick="alert1()" id="signup" value="SIGN IN"><br>
+            </center>
+        </form></div>  
+    </div>
+</body>
+</html>

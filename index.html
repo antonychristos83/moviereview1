@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Style.css">
+     <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script1.js"></script>
+    <style>
+      .list{
+        color:whitesmoke;
+      }
+      .list-main{
+        display:inline-flex;
+        list-style-type: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <span>&nbsp TALKIES&nbsp;</span><i class='bx bx-movie-play bx-tada'></i></span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <div class="dropdown">  
+                        <li><a href="#">Movies</a></li> 
+                        <div class="dropdown-content">  
+                        <a href="horror.html"> Horror </a>  
+                        <a href="action.html"> Action </a>  
+                        <a href="comedy.html"> Comedy </a>
+                        <a href="romance.html"> Romance </a>
+                        </div>  
+                        </div>
+                    <li><a href="series.html">Series</a></li>
+                    <li>
+                    <a href="signIn.html" class="btn btn-hover">
+                        <span>Sign In</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="No-Way-Home.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade" style="display: none;">
+      <img src="avengers.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade" style="display: none;">
+      <img src="extraction.jpeg" style="width:100%">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div class="alldot" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div><br><br>
+  <!-- <div class ="list-main">
+    <h2 style="color: rgb(255, 255, 255);">TOP BOX-OFFICE HITS</h2>
+    <ul class="list">
+      <li>No Way Home</li>
+      <li>HEllo</li>
+      <li>hh</li>
+      <li>fgh</li>
+    </ul></div> -->
+  
+  <center><address style="color: rgb(255, 255, 255);">Created by ANTONY CHRISTOS</address></center>
+</body>
+</html>
